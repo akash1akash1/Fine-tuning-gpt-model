@@ -169,12 +169,6 @@ Model evaluation provides:
 
 Use previously fine-tuned models as base models:
 
-```yaml
-clients:
-  client_a:
-    base_model_negative: "ft:gpt-4o-mini-2024-07-18:org:prev-model:xyz789"
-    base_model_positive: "gpt-4o-mini-2024-07-18"  # Use base model
-```
 
 ### Batch Processing Configuration
 
